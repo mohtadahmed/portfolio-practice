@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f1e3;
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;
+}
+.color-red {
+  color: tomato;
+}
+.top-container {
+  display: flex;
+  text-align: center;
+  height: 88vh;
+  /* background-image: url(/images/bg-transparent.png);
+  background-repeat: no-repeat; */
+}
+.top-container img {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.left-side {
+  width: 50%;
+  margin: 100px 25px;
+  padding: 20px;
+  text-align: justify;
+}
+.left-side h1,
+h2 {
+  text-align: center;
+}
+
+.right-side {
+  width: 50%;
+  margin: 100px 25px;
+}
+.right-side img {
+  height: 80%;
+  width: 50%;
+}
+
+.hire-button {
+  text-decoration: none;
+  background: linear-gradient(#ff416c, #ff4b2b);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.quote {
+  background-color: black;
+  color: wheat;
+  text-align: center;
+  padding: 10px;
+}
+.quote p {
+  font-size: 25px;
+}
