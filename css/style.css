@@ -22,7 +22,8 @@ h2 {
 }
 .top-container img {
   border: 2px solid white;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  border-radius: 40px;
 }
 .left-side {
   width: 50%;
@@ -39,9 +40,9 @@ h2 {
   width: 50%;
   margin: 100px 25px;
 }
-.right-side img {
-  height: 80%;
-  width: 50%;
+.right-side h1,
+h2 {
+  text-align: center;
 }
 
 .hire-button {
@@ -59,4 +60,12 @@ h2 {
 }
 .quote p {
   font-size: 25px;
+}
+
+.dream-section {
+  display: flex;
+  height: 88vh;
+}
+.dream-section img {
+  border-radius: 40px;
 }
