@@ -29,6 +29,9 @@ h2 {
   width: 50%;
   margin: 100px 25px;
   padding: 20px;
+  /* text-align: justify; */
+}
+.left-side p {
   text-align: justify;
 }
 .left-side h1,
@@ -39,6 +42,10 @@ h2 {
 .right-side {
   width: 50%;
   margin: 100px 25px;
+}
+.right-side p {
+  text-align: justify;
+  margin-right: 30px;
 }
 .right-side h1,
 h2 {
@@ -74,6 +81,7 @@ h2 {
 }
 .activity-container {
   display: inline-block;
+  margin-bottom: 150px;
   /* border: 1px solid coral;
   box-shadow: 10px 5px 5px gray;
   padding: 30px;
@@ -110,4 +118,34 @@ h2 {
   border-image: linear-gradient(#ed213a, #93291e);
   border-image-slice: 1;
   border-left: 4px solid;
+}
+
+.experience-section {
+  text-align: center;
+}
+.experience-container {
+  display: flex;
+  text-align: center;
+}
+
+.exp-main {
+  background-image: linear-gradient(45deg, #7f7fd5, #86a8e7, #91eae4);
+  border-radius: 15px;
+  padding: 30px 60px;
+  border-right: 5px solid;
+  border-image: linear-gradient(#b21f1f, #fdbb2d);
+  border-image-slice: 2;
+  border-radius: 10px;
+}
+.exp-side {
+  background-image: linear-gradient(45deg, #91eae4, #86a8e7, #7f7fd5);
+  border-radius: 15px;
+  padding: 30px 60px;
+  border-left: 5px solid;
+  border-image: linear-gradient(#fdc830, #f37335);
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
 }
