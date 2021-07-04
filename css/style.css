@@ -69,3 +69,45 @@ h2 {
 .dream-section img {
   border-radius: 40px;
 }
+.activity-section {
+  text-align: center;
+}
+.activity-container {
+  display: inline-block;
+  /* border: 1px solid coral;
+  box-shadow: 10px 5px 5px gray;
+  padding: 30px;
+  background-color: snow; */
+}
+.task-detail {
+  background-color: whitesmoke;
+  box-shadow: 10px 15px 5px lightsteelblue;
+  padding: 20px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+#task-1 {
+  border-image: linear-gradient(lightsalmon, tomato);
+  border-image-slice: 1;
+  border-left: 4px solid;
+}
+#task-2 {
+  border-image: linear-gradient(#ec2f4b, #009fff);
+  border-image-slice: 2;
+  border-right: 4px solid;
+}
+#task-3 {
+  border-image: linear-gradient(#8360c3, #2ebf91);
+  border-image-slice: 1;
+  border-left: 4px solid;
+}
+#task-4 {
+  border-image: linear-gradient(#000046, #1cb5e0);
+  border-image-slice: 2;
+  border-right: 4px solid;
+}
+#task-5 {
+  border-image: linear-gradient(#ed213a, #93291e);
+  border-image-slice: 1;
+  border-left: 4px solid;
+}
