@@ -75,6 +75,7 @@ h2 {
 }
 .dream-section img {
   border-radius: 40px;
+  margin-left: 50px;
 }
 .activity-section {
   text-align: center;
@@ -98,26 +99,36 @@ h2 {
   border-image: linear-gradient(lightsalmon, tomato);
   border-image-slice: 1;
   border-left: 4px solid;
+  border-right: 1px solid;
+  border-radius: 5px;
 }
 #task-2 {
   border-image: linear-gradient(#ec2f4b, #009fff);
   border-image-slice: 2;
   border-right: 4px solid;
+  border-left: 1px solid;
+  border-radius: 5px;
 }
 #task-3 {
   border-image: linear-gradient(#8360c3, #2ebf91);
   border-image-slice: 1;
   border-left: 4px solid;
+  border-right: 1px solid;
+  border-radius: 5px;
 }
 #task-4 {
   border-image: linear-gradient(#000046, #1cb5e0);
   border-image-slice: 2;
   border-right: 4px solid;
+  border-left: 1px solid;
+  border-radius: 5px;
 }
 #task-5 {
   border-image: linear-gradient(#ed213a, #93291e);
   border-image-slice: 1;
   border-left: 4px solid;
+  border-right: 1px solid;
+  border-radius: 5px;
 }
 
 .experience-section {
