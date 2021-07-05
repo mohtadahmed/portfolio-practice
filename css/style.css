@@ -29,7 +29,7 @@ h2 {
   width: 50%;
   margin: 100px 25px;
   padding: 20px;
-  /* text-align: justify; */
+  text-align: justify;
 }
 .left-side p {
   text-align: justify;
@@ -137,7 +137,7 @@ h2 {
 }
 .experience-container {
   display: flex;
-  text-align: center;
+  text-align: justify;
 }
 
 .exp-main {
@@ -148,6 +148,12 @@ h2 {
   border-image: linear-gradient(#b21f1f, #fdbb2d);
   border-image-slice: 2;
   border-radius: 10px;
+}
+.exp-main h2 {
+  text-align: justify;
+}
+.exp-side h2 {
+  text-align: justify;
 }
 .exp-side {
   background-image: linear-gradient(45deg, #91eae4, #86a8e7, #7f7fd5);
@@ -160,6 +166,9 @@ h2 {
 }
 footer {
   text-align: center;
+  background-color: rgb(37, 33, 33);
+  color: white;
+  padding: 6px 0px;
 }
 
 @media screen and (max-width: 768px) {
@@ -221,8 +230,18 @@ footer {
     border-radius: 10px;
     width: 60%;
   }
+  .exp-main h2 {
+    text-align: center;
+  }
+  .exp-side h2 {
+    text-align: center;
+  }
   footer {
     text-align: center;
+    font-size: 12px;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    padding: 6px 0px;
   }
 }
 
