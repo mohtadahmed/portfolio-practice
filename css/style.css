@@ -16,7 +16,7 @@ h2 {
 .top-container {
   display: flex;
   text-align: center;
-  height: 88vh;
+  /* height: 88vh; */
   /* background-image: url(/images/bg-transparent.png);
   background-repeat: no-repeat; */
 }
@@ -72,7 +72,7 @@ h2 {
 
 .dream-section {
   display: flex;
-  height: 88vh;
+  /* height: 88vh; */
 }
 .dream-section img {
   border-radius: 40px;
@@ -160,4 +160,108 @@ h2 {
 }
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .top-container {
+    display: block;
+  }
+  .left-side {
+    width: 85%;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .right-side {
+    width: 85%;
+    margin: 60px auto;
+    text-align: center;
+  }
+  .right-side p {
+    text-align: justify;
+    margin-right: 30px;
+  }
+
+  .quote p {
+    font-size: 18px;
+  }
+
+  .dream-section {
+    display: block;
+  }
+  .dream-section img {
+    margin-left: 0;
+  }
+
+  .experience-section {
+    margin: auto;
+  }
+  .experience-container {
+    display: inline-block;
+  }
+
+  .exp-main {
+    background-image: linear-gradient(45deg, #7f7fd5, #86a8e7, #91eae4);
+    border-radius: 15px;
+    padding: 30px 60px;
+    border-right: 5px solid;
+    border-image: linear-gradient(#b21f1f, #fdbb2d);
+    border-image-slice: 2;
+    border-radius: 10px;
+    width: 60%;
+  }
+  .exp-side {
+    background-image: linear-gradient(45deg, #91eae4, #86a8e7, #7f7fd5);
+    border-radius: 15px;
+    padding: 30px 60px;
+    border-left: 5px solid;
+    border-image: linear-gradient(#fdc830, #f37335);
+    border-image-slice: 1;
+    border-radius: 10px;
+    width: 60%;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .top-container img {
+    height: 240px;
+    width: 370px;
+  }
+
+  .left-side {
+    text-align: justify;
+  }
+
+  .right-side {
+    text-align: justify;
+  }
+  .quote {
+    padding: 3px 0px;
+  }
+  .quote p {
+    font-size: 20px;
+  }
+  .dream-section img {
+    height: 240px;
+    width: 370px;
+  }
+  .experience-container h5 {
+    text-align: center;
+  }
+  footer {
+    font-size: 12px;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    padding: 6px 0px;
+  }
 }
